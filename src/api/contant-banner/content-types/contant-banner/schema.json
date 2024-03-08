@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "contant_banners",
+  "info": {
+    "singularName": "contant-banner",
+    "pluralName": "contant-banners",
+    "displayName": "contant Banner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

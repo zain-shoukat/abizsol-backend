@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigations",
+  "info": {
+    "singularName": "navigation",
+    "pluralName": "navigations",
+    "displayName": "navigation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "navigation_dropdowns": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation-dropdown.navigation-dropdown",
+      "mappedBy": "navigation"
+    }
+  }
+}

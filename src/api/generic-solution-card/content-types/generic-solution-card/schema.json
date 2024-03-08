@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_solution_cards",
+  "info": {
+    "singularName": "generic-solution-card",
+    "pluralName": "generic-solution-cards",
+    "displayName": "generic Solution card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "generic_solution": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::generic-solution.generic-solution",
+      "inversedBy": "generic_solution_cards"
+    }
+  }
+}

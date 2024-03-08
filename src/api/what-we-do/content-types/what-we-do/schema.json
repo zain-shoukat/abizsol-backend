@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "what_we_dos",
+  "info": {
+    "singularName": "what-we-do",
+    "pluralName": "what-we-dos",
+    "displayName": "whatWeDo",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "maxLength": 70,
+      "minLength": 3
+    },
+    "subHeading": {
+      "type": "string",
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "minLength": 3
+    }
+  }
+}

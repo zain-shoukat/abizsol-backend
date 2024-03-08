@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "generic_foci",
+  "info": {
+    "singularName": "generic-focus",
+    "pluralName": "generic-foci",
+    "displayName": "generic focus",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "generic_focus_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::generic-focus-card.generic-focus-card"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banners",
+  "info": {
+    "singularName": "banner",
+    "pluralName": "banners",
+    "displayName": "banner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "maxLength": 40,
+      "minLength": 3
+    },
+    "subHeading": {
+      "type": "string",
+      "maxLength": 40,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "minLength": 3
+    }
+  }
+}

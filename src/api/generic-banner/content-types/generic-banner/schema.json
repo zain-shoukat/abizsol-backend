@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_banners",
+  "info": {
+    "singularName": "generic-banner",
+    "pluralName": "generic-banners",
+    "displayName": "genericBanner"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 100
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "what_we_docards",
+  "info": {
+    "singularName": "what-we-docard",
+    "pluralName": "what-we-docards",
+    "displayName": "whatWeDocard",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "text",
+      "maxLength": 150,
+      "minLength": 3
+    },
+    "link": {
+      "type": "string"
+    },
+    "linkName": {
+      "type": "string"
+    }
+  }
+}

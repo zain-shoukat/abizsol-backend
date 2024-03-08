@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "generic_processes",
+  "info": {
+    "singularName": "generic-process",
+    "pluralName": "generic-processes",
+    "displayName": "generic process",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

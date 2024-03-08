@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "client_sections",
+  "info": {
+    "singularName": "client-section",
+    "pluralName": "client-sections",
+    "displayName": "client Section"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_question_answers",
+  "info": {
+    "singularName": "generic-question-answer",
+    "pluralName": "generic-question-answers",
+    "displayName": "generic question answer"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "text"
+    }
+  }
+}

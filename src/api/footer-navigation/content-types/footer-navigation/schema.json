@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_navigations",
+  "info": {
+    "singularName": "footer-navigation",
+    "pluralName": "footer-navigations",
+    "displayName": "footer navigation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "footer_navigation_dropdowns": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::footer-navigation-dropdown.footer-navigation-dropdown",
+      "mappedBy": "footer_navigation"
+    }
+  }
+}

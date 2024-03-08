@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_solutions",
+  "info": {
+    "singularName": "generic-solution",
+    "pluralName": "generic-solutions",
+    "displayName": "generic Solution",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "generic_solution_cards": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::generic-solution-card.generic-solution-card",
+      "mappedBy": "generic_solution"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "about"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "maxLength": 70,
+      "minLength": 3
+    },
+    "subHeading": {
+      "type": "string",
+      "maxLength": 50,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "minLength": 3
+    }
+  }
+}

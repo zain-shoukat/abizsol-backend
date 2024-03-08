@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "client_section_cards",
+  "info": {
+    "singularName": "client-section-card",
+    "pluralName": "client-section-cards",
+    "displayName": "client Section card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "clientName": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

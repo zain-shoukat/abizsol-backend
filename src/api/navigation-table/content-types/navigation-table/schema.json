@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_tables",
+  "info": {
+    "singularName": "navigation-table",
+    "pluralName": "navigation-tables",
+    "displayName": "navigation Table",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tableDropdown": {
+      "type": "string"
+    },
+    "navigation_table_data": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::navigation-table-data.navigation-table-data",
+      "mappedBy": "navigation_table"
+    }
+  }
+}

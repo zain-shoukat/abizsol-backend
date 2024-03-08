@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "transformations",
+  "info": {
+    "singularName": "transformation",
+    "pluralName": "transformations",
+    "displayName": "Transformation"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

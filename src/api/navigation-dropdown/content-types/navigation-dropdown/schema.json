@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "navigation_dropdowns",
+  "info": {
+    "singularName": "navigation-dropdown",
+    "pluralName": "navigation-dropdowns",
+    "displayName": "navigation Dropdown",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dropdownName": {
+      "type": "string"
+    },
+    "navigation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::navigation.navigation",
+      "inversedBy": "navigation_dropdowns"
+    },
+    "heading": {
+      "type": "string"
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    }
+  }
+}

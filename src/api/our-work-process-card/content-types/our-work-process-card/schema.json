@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_work_process_cards",
+  "info": {
+    "singularName": "our-work-process-card",
+    "pluralName": "our-work-process-cards",
+    "displayName": "ourWorkProcessCard"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "minLength": 3
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

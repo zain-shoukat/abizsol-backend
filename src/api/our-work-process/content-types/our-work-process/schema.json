@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "our_work_processes",
+  "info": {
+    "singularName": "our-work-process",
+    "pluralName": "our-work-processes",
+    "displayName": "ourWorkProcess"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "required": true,
+      "maxLength": 70,
+      "minLength": 3
+    },
+    "subHeading": {
+      "type": "string",
+      "required": false,
+      "minLength": 3
+    },
+    "description": {
+      "type": "text",
+      "minLength": 3
+    }
+  }
+}

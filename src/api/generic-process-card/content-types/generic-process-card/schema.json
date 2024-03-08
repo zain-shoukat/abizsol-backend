@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_process_cards",
+  "info": {
+    "singularName": "generic-process-card",
+    "pluralName": "generic-process-cards",
+    "displayName": "generic process card"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

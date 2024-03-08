@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "footer_navigation_dropdowns",
+  "info": {
+    "singularName": "footer-navigation-dropdown",
+    "pluralName": "footer-navigation-dropdowns",
+    "displayName": "footer navigation dropdown"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "dropdownName": {
+      "type": "string"
+    },
+    "dropdownLink": {
+      "type": "string"
+    },
+    "footer_navigation": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::footer-navigation.footer-navigation",
+      "inversedBy": "footer_navigation_dropdowns"
+    }
+  }
+}

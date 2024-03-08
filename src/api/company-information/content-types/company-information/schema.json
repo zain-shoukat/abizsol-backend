@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "company_informations",
+  "info": {
+    "singularName": "company-information",
+    "pluralName": "company-informations",
+    "displayName": "companyInformation",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "minLength": 3
+    },
+    "companylogo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "companyEmail": {
+      "type": "email",
+      "minLength": 3
+    },
+    "companyNumber": {
+      "type": "biginteger"
+    },
+    "youtube": {
+      "type": "string",
+      "minLength": 3
+    },
+    "facebook": {
+      "type": "string",
+      "minLength": 3
+    },
+    "x": {
+      "type": "string",
+      "minLength": 3
+    },
+    "linkedIn": {
+      "type": "string"
+    },
+    "about": {
+      "type": "text",
+      "minLength": 3
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

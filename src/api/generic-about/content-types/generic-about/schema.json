@@ -1,0 +1,38 @@
+{
+  "kind": "collectionType",
+  "collectionName": "generic_abouts",
+  "info": {
+    "singularName": "generic-about",
+    "pluralName": "generic-abouts",
+    "displayName": "generic About"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string",
+      "minLength": 3
+    },
+    "subHeading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "buttonName": {
+      "type": "string"
+    },
+    "buttonLink": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
